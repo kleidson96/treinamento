@@ -28,7 +28,7 @@ body {
 .menu a {
   color: #ffffff;
   text-decoration: none;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   letter-spacing: 3px;
   
   
@@ -163,12 +163,12 @@ body {
 
 /* inicio css projetos */
 #project{
-    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin: 3rem 0;
+    
+    
 }
 .card-container{
     display: flex;
@@ -278,9 +278,14 @@ body {
 
 @media only screen and (max-width:540px){
     .menu {
-        gap: 50px;
+        gap: 10px;
         font-size: 12px;
+        padding: 1px;
     }
+    .menu a {
+      letter-spacing: 1px;
+    }
+    
     .superior p{
         font-size: 18px;
     }

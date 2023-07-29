@@ -297,4 +297,9 @@ body {
     .social-midia{
         gap: 10px;
     }
+    .card{
+      width: 150px;
+      height: 150px;
+      
+    }
 }

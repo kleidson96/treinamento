@@ -288,20 +288,19 @@ body {
     .menu a {
       letter-spacing: 1px;
     }
-    
     .superior p{
         font-size: 18px;
     }
     .box{
-        width: 400px;
-          
+        width: 350px;    
+    }
+    .img{
+      margin-right: 50px;
     }
     .social-midia{
-        gap: 10px;
+        margin-right: 15px;
     }
-    .social-midia a{
-      margin-left: 20px;
-    }
+    
     .card{
       width: 150px;
       height: 150px;

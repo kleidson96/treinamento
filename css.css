@@ -103,7 +103,7 @@ body {
 }
 
 .info {
-  width: 100vw;
+  width: 400px;
   margin-left: 20px;
   
   
@@ -294,8 +294,9 @@ body {
     .box{
         width: 350px;    
     }
-    .img{
-      margin-right: 50px;
+    .img{ 
+      margin-left: 100px;
+
     }
     .social-midia{
         margin-right: 15px;

@@ -21,8 +21,8 @@ body {
   background-color: rgb(15, 15, 15);
   justify-content: center;
   align-items: center; 
-  gap: 150px;
-  position: fixed; 
+  position: fixed;
+  gap: 7rem;
 }
 
 .menu a {
@@ -279,7 +279,7 @@ body {
     border: #111111 solid 2px;
   }
 
-@media only screen and (max-width:540px){
+@media only screen and (max-width:450px){
     .menu {
         gap: 10px;
         font-size: 12px;
@@ -311,4 +311,10 @@ body {
       margin-left: 15px;
     }
   
+}
+
+@media only screen and (max-width:800px){
+  .menu{
+    gap: 1rem;
+  }
 }

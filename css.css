@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&family=Belanosima&family=Roboto&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,7 +10,7 @@ body {
   font-family: 'Baloo Thambi 2', sans-serif;
   width: 100vw;
   height: 100%;
-  background-image: linear-gradient(to top, rgb(48, 116, 74), rgb(82, 241, 8));
+  background-image: linear-gradient(to right, rgb(48, 116, 74), rgb(82, 241, 8));
 }
 
 /* Menu Princial */
@@ -20,7 +20,7 @@ body {
   height: 70px;
   background-color: rgb(15, 15, 15);
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   position: fixed;
   gap: 100px;
 }
@@ -30,13 +30,14 @@ body {
   text-decoration: none;
   padding: 1rem 1rem;
   letter-spacing: 3px;
-  
-  
+
+
 }
-.menu li{
-    border: 2px solid rgb(82, 241, 8);
-    border-radius: 15px 100px;
-    list-style-type: none;
+
+.menu li {
+  border: 2px solid rgb(82, 241, 8);
+  border-radius: 15px 100px;
+  list-style-type: none;
 }
 
 .menu a:hover {
@@ -48,20 +49,21 @@ body {
 
 /* parte superior */
 .superior {
-  height:200px;
+  height: 200px;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
 }
+
 .superior p {
   color: rgb(15, 15, 15);
   font-size: 32px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  
-  
+
+
 }
 
 /* superior. Fim  */
@@ -74,8 +76,8 @@ body {
   justify-content: center;
   display: flex;
   margin-top: -150px;
-  
-  
+
+
 }
 
 .box {
@@ -86,8 +88,8 @@ body {
   border-radius: 10px;
   align-items: center;
   justify-content: center;
- 
-  
+
+
 }
 
 .img {
@@ -105,26 +107,29 @@ body {
 .info {
   width: 400px;
   margin-left: 20px;
-  
-  
+
+
 }
 
 .info h3 {
   color: #ffffff;
   font-size: 18px;
-  
+
 }
-.info h1{
+
+.info h1 {
   color: #ffffff;
   margin-top: 10px;
   font-size: 24px;
 
 }
-.info span{
+
+.info span {
   margin: 10px;
   color: rgb(82, 241, 8);
 }
-.info p{
+
+.info p {
   color: #ffffff;
   font-size: 18px;
   margin-top: 10px;
@@ -157,166 +162,245 @@ body {
 .social-midia a:hover {
   background-color: rgb(82, 241, 8);
   color: rgb(15, 15, 15);
- 
+
 }
 
 /* fim card */
 
 
 /* inicio css projetos */
-#project{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
-    
-    
-}
-.card-container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 90%;
-    margin-top: 20px;
+.container-main {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  gap: 20px;
 }
 
-.card{
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin: 3rem 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(82, 241, 8);
-    background-image: url('img/image.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: rgb(82, 241, 8);
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
+.txt-proj {
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: rgb(15, 15, 15);
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
-.card-text{
-    width: 40%;
-    letter-spacing: 1px;
-    color: #111111;
+.card-container {
+  width: 350px;
+  height: 500px;
+  border: 2px solid rgb(15, 15, 15);
+  background-color: rgb(34, 37, 35);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: inline;
 }
-.card-wrapper{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+
+.card {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 3rem 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('img/image.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  margin-left: 70px;
 }
-.card-wrapper::before{
-    content: '';
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    display: block;
-    border: 1px solid rgb(82, 241, 8);
-    opacity: 0;
-    transition: 0.5s ease-in-out;
-    
-}
-.card-wrapper h2{
-    color: #111111;
-    font-size: 40px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    margin: 0;
-    transition: 0.5s ease-in-out;
+
+.card-text {
+  width: 40%;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-left: 70px;
+  margin-top: 30px;
 
 }
 
-.card-wrapper p{
-    color:rgb(82, 241, 8);
-    font-size: 0;
-    visibility: visible;
-    opacity: 0;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: 0.5s ease-in-out;
+.card-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.card:hover{
-    filter: unset;
+.card-wrapper::before {
+  content: '';
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  border: 1px solid rgb(82, 241, 8);
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+
 }
 
-.card:hover > .card-wrapper::before{
-    height: 250px;
-    width: 250px;
-    opacity: 1;
+.card-wrapper h2 {
+  color: #111111;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0;
+  transition: 0.5s ease-in-out;
+
 }
 
-.card:hover > .card-wrapper p{
-    opacity: 1;
-    visibility: visible;
-    font-size: 14;
+.card-wrapper p {
+  color: rgb(82, 241, 8);
+  font-size: 0;
+  visibility: visible;
+  opacity: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+  filter: unset;
+}
+
+.card:hover>.card-wrapper::before {
+  height: 250px;
+  width: 250px;
+  opacity: 1;
+}
+
+.card:hover>.card-wrapper p {
+  opacity: 1;
+  visibility: visible;
+  font-size: 14;
 }
 
 /* fim css Projetos */
-/* rodapé */
-.footer {
-    height: 50px;
-    width: 100vw;
-    background-color: rgb(15, 15, 15);
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .redes-sociais a{
-    color: rgb(82, 241, 8);
-    padding: 10px;
-  
-  }
-  /* fim rodapé */
-  .linha{
-    border: #111111 solid 2px;
-  }
-
-@media only screen and (max-width:450px){
-    .menu {
-        gap: 10px;
-        font-size: 12px;
-        padding: 1px;
-    }
-    .menu a {
-      letter-spacing: 1px;
-    }
-    .superior p{
-        font-size: 18px;
-    }
-    .box{
-        width: 350px;    
-    }
-    .img{ 
-      margin-left: 100px;
-
-    }
-    .social-midia{
-        margin-right: 15px;
-    }
-    
-    .card{
-      width: 150px;
-      height: 150px;
-      
-    }
-    .info{
-      margin-left: 15px;
-      width: 350px;
-    }
-  
+/* contatos */
+.container-ctt {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  gap: 20px;
 }
 
-@media only screen and (max-width:650px){
-  .menu{
+.txt-contt {
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: rgb(15, 15, 15);
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.contt {
+  width: 350px;
+  height: 500px;
+  border: 2px solid rgb(15, 15, 15);
+  background-color: rgb(34, 37, 35);
+  border-radius: 10px;
+
+}
+
+.card-contt img {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-size: cover;
+  margin-top: 20px;
+  margin-left: 150px;
+  cursor: pointer;
+  margin-left: 70px;
+}
+
+.txt-ctt {
+
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+/* Fim contatos */
+/* rodapé */
+.footer {
+  height: 50px;
+  width: 100vw;
+  background-color: rgb(15, 15, 15);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes-sociais a {
+  color: rgb(82, 241, 8);
+  padding: 10px;
+
+}
+
+/* fim rodapé */
+.linha {
+  border: #111111 solid 2px;
+}
+
+@media only screen and (max-width:450px) {
+  .menu {
+    gap: 10px;
+    font-size: 12px;
+    padding: 1px;
+  }
+
+  .menu a {
+    letter-spacing: 1px;
+  }
+
+  .superior p {
+    font-size: 18px;
+  }
+
+  .box {
+    width: 350px;
+  }
+
+  .img {
+    margin-left: 100px;
+
+  }
+
+  .social-midia {
+    margin-right: 15px;
+  }
+
+  .card {
+    width: 150px;
+    height: 150px;
+
+  }
+
+  .info {
+    margin-left: 15px;
+    width: 350px;
+  }
+
+}
+
+@media only screen and (max-width:650px) {
+  .menu {
     gap: 10px;
   }
 }

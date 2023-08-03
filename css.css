@@ -169,6 +169,10 @@ body {
 
 
 /* inicio css projetos */
+#project{
+  margin: 50px;
+
+}
 .container-main {
   align-items: center;
   justify-content: center;
@@ -195,9 +199,8 @@ body {
   border: 2px solid rgb(15, 15, 15);
   background-color: rgb(34, 37, 35);
   border-radius: 10px;
-  align-items: center;
-  justify-content: center;
-  display: inline;
+  
+  
 }
 
 .card {
@@ -396,7 +399,31 @@ body {
     margin-left: 15px;
     width: 350px;
   }
-
+  .container-main{
+    display: inline;
+  }
+  .card-container{
+    width: 300px;
+    height: 350px;
+  
+  }
+  .container-ctt{
+    display: inline;
+    
+  }
+ .card-contt img{
+  width: 150px;
+  height: 150px;
+ }
+  .txt-ctt{
+    margin-left: 15px;
+    
+  }
+  .contt{
+    width: 80%;
+    margin: 30px;
+    
+  }
 }
 
 @media only screen and (max-width:650px) {

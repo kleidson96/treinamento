@@ -1,160 +1,92 @@
 <!DOCTYPE html>
-<html lang="Pt-br">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portifolio</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <title>Kleidson Santos</title>
 </head>
 
 <body>
-    <!-- MENU SUPERIOR -->
-    <nav class="menu">
-        <ul>
-            <li>
-                <a href='#'>Home</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href='#'>Sobre mim</a>
-            </li>
-        </ul>
-        <ul>
-            <li id="1" onclick="markcolor()">
-                <a href='#project'>Projetos</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href='#contato'>Contato</a>
-            </li>
-        </ul>
-
-    </nav>
-    <!-- FIM DA BARRA DE MENU SUPERIOR -->
-    <div class='superior'>
-        <p>Bem vindo ao meu Portifólio</p>
+<!-- menu superior -->
+    <div class="menu-fixo">
+        <nav>
+            <h2 class="portifolio">Portifo<span>lio</span></h2>
+            <p class="cv"><a href="documento/meu-curriculo-atualizado2024.pdf" download="Curriculo-KleidsonSantos">CV</a></p>
+            <ul class="link-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Fale comigo</a></li>
+            </ul>
+        </nav>
     </div>
+<!--caixa principal de entrada do site -->
+    <section class="caixa-principal" id="home">
 
-    <section id="header">
-        <div class='box'>
-            <div class='img'></div>
-            <div class='info'>
-                <h3>Olá,</h3>
-                <h1> Eu me chamo <span>Kleidson Santos</span></h1>
-                <p>Desenvolvedor Front-End</p>
-
-            </div>
-            <div class="social-midia">
-                <a href="https://www.linkedin.com/in/kleidsonsantos/">Linkedin</a>
-                <a href="https://github.com/kleidson96">Github</a>
-            </div>
+        <div class="meu-nome">
+            <h1>Kleidson <span>Santos</span></h1>
+            <h3>Desenvolvedor Web</h3>
         </div>
     </section>
-    <div class="linha"></div> <!--DIVISÓRIA DOS CONTEUDOS-->
-    <section id="project">
-        <p class="txt-proj">Meus Projetos</p>
-        <div class="container-main">
-            <div class="card-container">
-                <div class="card">
-                    <div class="card-wrapper">
-
-                        <p>Vem Ver</p>
-                    </div>
-                </div>
-                <div class="card-text">
-                    <h2>Projeto 1</h2>
-                    <h3>PROJETO EM CONTRUÇÃO</h3>
-                </div>
-
-            </div>
-            <div class="card-container">
-                <div class="card">
-                    <div class="card-wrapper">
-
-                        <p>Vem Ver</p>
-                    </div>
-                </div>
-                <div class="card-text">
-                    <h2>Projeto 2</h2>
-                    <h3>PROJETO EM CONTRUÇÃO</h3>
-                </div>
-
-            </div>
-            <div class="card-container">
-                <div class="card">
-                    <div class="card-wrapper">
-
-                        <p>Vem Ver</p>
-                    </div>
-                </div>
-                <div class="card-text">
-                    <h2>Projeto 3</h2>
-                    <h3>PROJETO EM CONTRUÇÃO</h3>
-                </div>
-
-            </div>
+<!-- caixa de informaçoes sobre mim-->
+    <section class="caixa-sobre-mim" id="sobre">
+        <img src="" alt="">
+        <div>
+            <h2>Sobre mim</h2>
+            <p>Eu sou um programador Front-End, tenho experiência com desenvolvimento web</p>
+            <button class="bt-contato"><a href="#contato">Entre em contato</a></button>
         </div>
     </section>
-    <div class="linha"></div> <!--DIVISÓRIA DOS CONTEUDOS-->
-    <section id="contato">
-        <p class="txt-contt">Meus Contatos</p>
-        <div class="container-ctt">
+<!--caixa onde contem todas as infomações sobre os projetos-->
+    <section class="caixa-projetos" id="projetos">
+        <h2>Pricipais projetos</h2>
 
-            <div class="contt">
-                <div class="card-contt">
-                    <a href="document/KleidsonSantos.docx" download="">
-                        <img src="img/img-docx.png" alt="">
-                    </a>
-                </div>
+        <div class="caixa-cards">
 
-                <p class="txt-ctt">
-                    Que bom que você chegou até aqui, isso pode significar que posso ser interessante pra você ou para
-                    sua empresa e para evitar problemas com spam eu deixei meu contato em forma de download. Click sobre
-                    a imagem para obter arquivo!
-                </p>
+            <div class="card">
+                <img src="img/construcao.jpg" alt="">
+                <h5>Em Construção</h5>
+                <p>Olá, bem vindo (a) estou trabalhando para que logo logo tenha um projeto legal aqui, ou você também
+                    pode está me dando essa grande oportunidade.</p>
+                <a href="#">Ver projeto</a>
             </div>
-            <div class="contt">
-                <div class="card-contt">
-                    <a href="document/KleidsonSantos.PDF" download="">
-                        <img src="img/img-pdf.png" alt="">
-                    </a>
-                </div>
-                <p class="txt-ctt">
-                    Que bom que você chegou até aqui, isso pode significar que posso ser interessante pra você ou para
-                    sua empresa e para evitar problemas com spam eu deixei meu contato em forma de download. Click sobre
-                    a imagem para obter arquivo!
-                </p>
-            </div>
-            <div class="contt">
-                <div class="card-contt">
-                    <a href="document/KleidsonSantos.txt" download="">
-                        <img src="img/img-txt.png" alt="">
-                    </a>
-                </div>
 
-                <p class="txt-ctt">
-                    Que bom que você chegou até aqui, isso pode significar que posso ser interessante pra você ou para
-                    sua empresa e para evitar problemas com spam eu deixei meu contato em forma de download. Click sobre
-                    a imagem para obter arquivo!
-                </p>
+            <div class="card">
+                <img src="img/construcao.jpg" alt="">
+                <h5>Em Construção</h5>
+                <p>Olá, bem vindo (a) estou trabalhando para que logo logo tenha um projeto legal aqui, ou você pode ta
+                    me dando essa grande oportunidade.</p>
+                <a href="#">Ver projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="img/construcao.jpg" alt="">
+                <h5>Em Construção</h5>
+                <p>Olá, bem vindo (a) estou trabalhando para que logo logo tenha um projeto legal aqui, ou você pode ta
+                    me dando essa grande oportunidade.</p>
+                <a href="#">Ver projeto</a>
             </div>
 
         </div>
 
     </section>
-    <footer class='footer'>
-        <p>₢ Developer by Kleidson Santos</p>
-        <div class='redes-sociais'>
-            <a href='https://web.facebook.com/kleidson96/'><i class="fa-brands fa-facebook " aria-hidden="true"></i></a>
-            <a href='https://www.instagram.com/kleidson96/'><i class="fa-brands fa-instagram"
-                    aria-hidden="true"></i></a>
-            <a href='#'><i class="fa-brands fa-twitter-square" aria-hidden="true"></i></a>
-
+<!-- caixa final do site contendo um rodape com informações de contato-->
+    <footer id="contato">
+        <h5>Kleidson Santos</h5>
+        <p>Para mais informações</p>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/kleidsonsantos/" target="_blank"><img src="img/linkedin.png" alt=""></a>
+            <a href="tel:+5571984648218" target="_blank"><img src="img/telefone.png" alt=""></a>
+            <a href="https://github.com/kleidson96" target="_blank"><img src="img/GitHub.png" alt=""></a>
         </div>
     </footer>
+<!--Fim do codigo-->
 </body>
 
 </html>
